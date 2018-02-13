@@ -1,0 +1,49 @@
+
+body {background-image: url("../graphics/2.jpg");}
+
+#topDiv {
+    width: 98%;
+    border: 1px solid black;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 20px;
+    background: url("../graphics/1.jpg");
+    
+    opacity: 1.0;
+    font-size: 1.2em;
+}
+
+#topDiv img {float: left;
+            border: 0px solid black;
+        margin : 10px;}
+
+#topLogo {float: left;
+            border: 0 ;
+        display: block; }
+
+pre { 
+        background-color: white;
+        margin: 10px;
+        padding 10px;
+        opacity : 1.0;
+
+        border-radius : 5px;
+}
+
+.toggleIt { background-color: white;
+    font-size: 1.5em;
+            padding: 20px;
+            border : 1px solid black;
+            border-radius : 20px;
+        box-shadow: 8px 5px 2px; }
+
+#newDiv {
+            width: 98%;
+            border: 1px solid black;
+            margin: 25px;
+            padding: 25px;
+            border-radius: 20px;
+            background: url("../graphics/4.jpg");
+            opacity: 0.97;
+            font-size: 1.2em;
+        }
