@@ -19,7 +19,7 @@ function cutInHalf (value) {
 // Numbers, Strings and Boolean values are passed to a function as values;
 // This is called "passed by value".  The orginal is not changed.
 
-// Objects are "passesd by reference".  Therefore when you send an object
+// Objects are "passed by reference".  Therefore when you send an object
 // to a function it DOES change the object outside the function.
 
 // pg. 298 - 299
@@ -41,7 +41,7 @@ function cutInHalf (value) {
 // methods; just like other objects.
 
 // Arguments are stored in a parameter list that is an argument property
-// of the function object.  This "list" is like and array.
+// of the function object.  This "list" is like an array.
 
 var isEven = function() {
     return arguments[0] % 2 === 0;
@@ -55,7 +55,7 @@ var countArgs = function() {
 
 // pg. 312 - 313
 // The THIS keyword holds a value that is determined by HOW THE 
-// FUNCTION IS INVOKED.  [in an even handler, this refers to the 
+// FUNCTION IS INVOKED.  [in an event handler, this refers to the 
 // object that raised the event (what got clicked?)]
 
 // The last code snipplet on page 313 is noteworthy.
