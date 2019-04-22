@@ -16,7 +16,7 @@ function cutInHalf (value) {
 }
 
 // pg 296 - 297
-// Numbers, Strings and Boolian values are passed to a function as values;
+// Numbers, Strings and Boolean values are passed to a function as values;
 // This is called "passed by value".  The orginal is not changed.
 
 // Objects are "passesd by reference".  Therefore when you send an object
@@ -40,7 +40,7 @@ function cutInHalf (value) {
 // ALL functions are objects.  This means that functions have properties
 // methods; just like other objects.
 
-// agruments are stored in a parameter list that is an agrument property
+// Arguments are stored in a parameter list that is an argument property
 // of the function object.  This "list" is like and array.
 
 var isEven = function() {
