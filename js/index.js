@@ -1,6 +1,6 @@
 
 // pg 294 - 295
-// Funciton Expression - you can store a Function Expression as a property 
+// Function Expression - you can store a Function Expression as a property 
 // of an Object.  So, it's treated as a Method.  Yet, you must declare them
 // in order to use them!  (Consider the Order of your functions.)
 
