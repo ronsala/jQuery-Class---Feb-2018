@@ -60,14 +60,14 @@ var countArgs = function() {
 
 // The last code snipplet on page 313 is noteworthy.
 
-// A Call sends arguments as an comma-seperated string,
+// A Call sends arguments as an comma-separated string,
 // an an apply sends arguments as an array.
 
 // pg. 314 - 315
 // The "call" and "apply" methods of a function let you specify
 // the value of the "this" keyword.
 
-// The "bind" method let's you specify the "this" keyword when
+// The "bind" method lets you specify the "this" keyword when
 // you code or assign the function.
 
 var thisTest = function() {
